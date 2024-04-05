@@ -4,23 +4,23 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="relative lg:h-[700px] bg-bg-img-1 bg-cover bg-center bg-no-repeat">
-      <div className="absolute inset-0  bg-black/30 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
+    <section className="relative lg:h-[870px] bg-bg-img-4 bg-cover bg-center bg-no-repeat">
+      <div className="absolute inset-0  bg-black/20"></div>
 
-      <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8 text-center">
-        <div className="w-full">
-          <h1 className="text-3xl font-extrabold lg:text-[60px] text-white uppercase [text-shadow:_0_4px_4px_rgb(0_0_0_/_25%)]">
-            One Life, Endless
-            <strong className="block font-extrabold text-blue uppercase text-4xl lg:text-[90px] lg:mt-9">
-              Adventures
-            </strong>
+      <div className="flex flex-col relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen/2 lg:items-center lg:px-8">
+        <div className="w-full text-center">
+          <p className="text-white text-lg lg:text-[40px] font-pacifico">
+            One Life
+          </p>
+          <h1 className="text-3xl font-extrabold lg:text-[70px] lg:mt-10 text-white uppercase [text-shadow:_0_4px_4px_rgb(0_0_0_/_25%)]">
+            Endless Adventures
           </h1>
 
-          <p className="mt-4 max-w-lg sm:text-xl/relaxed text-white lg:mt-10  font-bold lg:text-xl drop-shadow-lg">
+          <p className="mt-2  text-sm text-white lg:mt-7  font-bold lg:text-xl drop-shadow-lg">
             #1 Travel Agency in Dubai. Rated by 100+ satisfied travelers. 👍
           </p>
 
-          <div className="mt-6 flex flex-wrap gap-4 text-center">
+          <div className="mt-6 lg:mt-8 flex items-center justify-center gap-4 text-center">
             <a
               href="#"
               className="tracking-wide border-2 border-black border-solid block  rounded bg-white px-12 py-3 text-sm font-extrabold  focus:outline-none focus:ring  sm:w-auto no-underline text-black lg:text-md hover:"
@@ -30,7 +30,65 @@ const Hero = () => {
             </a>
           </div>
         </div>
+
+        {/* card  */}
+
+        <div className="flexBetween mt-10 lg:mt-20 text-white">
+          <div className="flex flex-col items-center justify-center text-center ">
+            <Image
+              src="/like.png"
+              width={2000}
+              height={2000}
+              className="h-8 w-8 lg:h-[50px] lg:w-[50px]"
+            />
+            <p className="font-semibold text-sm lg:text-2xl mt-2 lg:mt-3">
+              Trusted By Many
+            </p>
+            <p className="hidden lg:block mt-2 lg:mt-3 ">
+              With more than 100 5 star reviews in last 6 months and our
+              extensive experience, we have earned the trust of many as their
+              go-to travel partners.
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center text-center ">
+            <Image
+              src="/hotdeal.png"
+              width={2000}
+              height={2000}
+              className="h-8 w-8 lg:h-[50px] lg:w-[50px]"
+            />
+            <p className="font-semibold text-sm lg:text-2xl mt-2 lg:mt-3">
+              Great deals
+            </p>
+            <p className="hidden lg:block mt-2 lg:mt-3 ">
+              With our extensive network and expertise, we secure the best
+              offers and pass on the savings to you.
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center text-center ">
+            <Image
+              src="/hotballon.png"
+              width={2000}
+              height={2000}
+              className="h-8 w-8 lg:h-[50px] lg:w-[50px]"
+            />
+            <p className="font-semibold text-sm lg:text-2xl mt-2 lg:mt-3">
+              Wide range of options
+            </p>
+            <p className="hidden lg:block mt-2 lg:mt-3 ">
+              From diverse tour packages to exciting activities and
+              accommodations, we offer a wide array of options to tailor your
+              UAE travel to your preferences and desires.
+            </p>
+          </div>
+        </div>
       </div>
+      <Image
+        src="/overlay1.png"
+        height={125}
+        width={2000}
+        className="absolute bottom-0 w-full"
+      />
     </section>
   );
 };

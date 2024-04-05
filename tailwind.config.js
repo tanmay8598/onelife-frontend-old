@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        pacifico: "var(--font-pacifico)",
+      },
       colors: {
         red: {
           DEFAULT: "#8F0000",
@@ -21,7 +24,7 @@ module.exports = {
           90: "#141414",
         },
         orange: {
-          50: "#FF814C",
+          DEFAULT: "#f69626",
         },
         blue: {
           DEFAULT: "#00B8FF",
@@ -38,7 +41,13 @@ module.exports = {
       },
       backgroundImage: {
         "bg-img-1": "url('/travel-slide-01.jpg')",
-        "bg-img-2": "url('/slider2.png')",
+        "bg-img-2": "url('/travel-slide-02.jpg')",
+        "bg-img-3": "url('/travel-slide-03.jpg')",
+        "bg-img-4": "url('/travel-slide-04.jpg')",
+        "uae-visa": "url('/uae-passport.png')",
+        "uae-activities": "url('/activities.png')",
+        "uae-holidays": "url('/holidays.png')",
+        "section1-video": "url('/section1-video.png')",
       },
       textShadow: {
         sm: "0 1px 2px var(--tw-shadow-color)",
