@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="w-full bg-bgLight">
       {/* nav top */}
       <div className="hidden lg:block bg-red h-[54px]">
-        <div className="lg:max-container lg:flexBetween h-[54px] ">
+        <div className="lg:nav-max-container lg:flexBetween h-[54px] ">
           <div className="flexCenter">
             <Image src="/mail.png" alt="logo" width={20} height={20} />
             <p className="text-md font-regular text-white ml-2">
@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
       </div>
       {/* nav main  */}
-      <div className="flexBetween max-container padding-container relative z-30 py-5 ">
+      <div className="flexBetween nav-max-container padding-container relative z-30 py-5 ">
         <Link href="/">
           <Image src="/logo.png" alt="logo" width={172} height={76} />
         </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <Link
               href={link.href}
               key={link.key}
-              className="text-lg font-bold text-darkBlue flexCenter cursor-pointer  transition-all  no-underline"
+              className="text-lg font-semibold text-darkBlue flexCenter cursor-pointer  transition-all  no-underline"
             >
               {link.label}
             </Link>

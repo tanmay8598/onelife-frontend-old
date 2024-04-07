@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       fontFamily: {
         pacifico: "var(--font-pacifico)",
+        poppins: "var(--font-poppins)",
       },
       colors: {
         red: {
@@ -30,7 +31,7 @@ module.exports = {
           DEFAULT: "#00B8FF",
         },
         yellow: {
-          50: "#FEC601",
+          DEFAULT: "#FFC700",
         },
         bgLight: {
           DEFAULT: "#f2f2f2",
@@ -47,7 +48,9 @@ module.exports = {
         "uae-visa": "url('/uae-passport.png')",
         "uae-activities": "url('/activities.png')",
         "uae-holidays": "url('/holidays.png')",
-        "section1-video": "url('/section1-video.png')",
+        "section1-video": "url('/section/section1-video.png')",
+        "section2-bg": "url('/section/bg-img-11.jpg')",
+        "landing-bg": "url('/section/landing-bg.png')",
       },
       textShadow: {
         sm: "0 1px 2px var(--tw-shadow-color)",

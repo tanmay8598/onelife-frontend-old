@@ -35,8 +35,16 @@ const Section2 = () => {
           <Image src="/section/section1-4.png" height={214} width={214} />
         </div>
 
-        <div className="hidden lg:flex absolute right-0 bg-section1-video h-[600px] w-[389px]">
-          {/* <Image src="/section/section1-video.png" height={600} width={389} /> */}
+        <div className="hidden lg:block absolute right-0">
+          <div className="relative">
+            <Image src="/section/section1-video.png" height={600} width={389} />
+            <Image
+              src="/section/section1-play.png"
+              height={100}
+              width={100}
+              className="absolute m-auto left-0 right-0 top-0 bottom-0 cursor-pointer"
+            />
+          </div>
         </div>
       </div>
     </section>

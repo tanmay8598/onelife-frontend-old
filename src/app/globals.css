@@ -21,6 +21,9 @@ body {
   .max-container {
     @apply mx-auto max-w-[1240px];
   }
+  .nav-max-container {
+    @apply mx-auto max-w-[1300px];
+  }
 
   .padding-container {
     @apply px-6 lg:px-20 2xl:px-0;
