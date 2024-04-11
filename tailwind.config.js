@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 const plugin = require("tailwindcss/plugin");
 
-module.exports = {
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+module.exports = withMT({
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -34,7 +36,7 @@ module.exports = {
           DEFAULT: "#FFC700",
         },
         bgLight: {
-          DEFAULT: "#f2f2f2",
+          DEFAULT: "#F2F2F2",
         },
         darkBlue: {
           DEFAULT: "#021a58",
@@ -57,6 +59,28 @@ module.exports = {
         DEFAULT: "0 2px 4px var(--tw-shadow-color)",
         lg: "0 8px 16px var(--tw-shadow-color)",
       },
+      keyframes: {
+        typing: {
+          "0%": {
+            width: "0%",
+            visibility: "hidden",
+          },
+          "100%": {
+            width: "100%",
+          },
+        },
+        blink: {
+          "50%": {
+            borderColor: "transparent",
+          },
+          "100%": {
+            borderColor: "white",
+          },
+        },
+      },
+      animation: {
+        typing: "typing 2s steps(20) infinite alternate, blink .7s infinite",
+      },
     },
   },
 
@@ -72,4 +96,4 @@ module.exports = {
       );
     }),
   ],
-};
+});

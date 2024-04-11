@@ -4,21 +4,21 @@ import React from "react";
 const Section4 = () => {
   return (
     <section className="relative flex lg:h-[610px] bg-landing-bg bg-cover bg-center bg-no-repeat">
-      <div className="flex flex-col relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen/2 lg:items-center lg:px-8">
+      <div className="flex flex-col relative mx-auto max-w-screen-2xl px-4 py-32 sm:px-6 lg:flex lg:h-screen/2 lg:items-center lg:px-8">
         <div className="w-full text-center">
-          <p className="text-orange text-lg lg:text-[30px] font-pacifico">
+          <p className="text-orange text-xl lg:text-[30px] font-pacifico">
             Traveler’s
           </p>
-          <h1 className="text-xl font-bold lg:text-[40px] lg:mt-5 text-black">
+          <h1 className="text-3xl font-bold lg:text-[40px] lg:mt-5 text-black">
             Review & Gallery
           </h1>
         </div>
 
         <div className="lg:flex items-start  mt-10 lg:mt-20">
           {/* left  */}
-          <div className="lg:w-[577px] ">
+          <div>
             <div className="text-center lg:text-left">
-              <p className="font-bold text-3xl lg:text-[50px]">1000+</p>
+              <p className="font-bold text-2xl lg:text-[50px]">1000+</p>
               <p className="font-medium text-xl lg:text-4xl">Happy travelers</p>
             </div>
 
@@ -73,7 +73,7 @@ const Section4 = () => {
           </div>
 
           {/* right desktop */}
-          <div className="mx-auto mt-5 lg:mt-0 grid grid-cols-3 gap-3  max-w-[450px] place-items-center">
+          <div className="mx-auto mt-5 lg:mt-0 grid grid-cols-3 gap-3   place-items-center">
             <img className="hover:opacity-75 w-full" src="/gallery/g1.png" />
             <img className="hover:opacity-75 w-full" src="/gallery/g2.png" />
             <img className="hover:opacity-75 w-full" src="/gallery/g3.png" />

@@ -4,7 +4,7 @@ import React from "react";
 const Section2 = () => {
   return (
     <section className="bg-white lg:mt-[300px]">
-      <div className="relative flex flex-col  mx-auto max-w-screen-xl px-4 py-10 sm:px-6 lg:flex lg:h-screen lg:px-8 lg:mt-20">
+      <div className="relative flex flex-col  mx-auto max-w-screen-2xl px-4 py-10 sm:px-6 lg:flex lg:h-screen lg:px-8 lg:mt-20">
         <p className="text-orange font-pacifico lg:text-[36px]">Destinations</p>
         <p className="text-3xl mt-2 font-extrabold lg:text-[50px] lg:w-[70%] lg:mt-[30px] leading-none">
           The UAE Experience !
@@ -22,7 +22,7 @@ const Section2 = () => {
             <Image src="/arrow.png" height={9} width={8} className="ml-1" />
           </a>
         </div>
-        <div className="hidden lg:flex absolute z-10 bottom-24  items-center justify-center lg:justify-start flex-wrap gap-5 lg:gap-10 mt-10">
+        <div className="hidden lg:flex z-10   items-center justify-center lg:justify-start flex-wrap gap-5 lg:gap-10 mt-20">
           <Image src="/section/section1-1.png" height={214} width={214} />
           <Image src="/section/section1-2.png" height={214} width={214} />
           <Image src="/section/section1-3.png" height={214} width={214} />

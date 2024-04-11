@@ -4,7 +4,7 @@ import React from "react";
 const Section1 = () => {
   return (
     <section className="bg-white">
-      <div className="flex relative  flex-col  mx-auto max-w-screen-xl px-4 py-10 sm:px-6 lg:flex lg:h-screen lg:px-8 lg:mt-20">
+      <div className="flex relative  flex-col  mx-auto max-w-screen-2xl px-4 py-10 sm:px-6 lg:flex lg:h-screen lg:px-8 lg:mt-20">
         <p className="text-orange font-pacifico lg:text-[36px]">
           Travel With Ease
         </p>

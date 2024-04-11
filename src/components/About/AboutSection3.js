@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
 
-const Section3 = () => {
+const AboutSection3 = () => {
   return (
-    <section className="relative flex lg:h-[810px] bg-section2-bg bg-cover bg-center bg-no-repeat">
+    <section className="relative flex lg:h-screen bg-section2-bg bg-cover bg-center bg-no-repeat lg:mt-[300px]">
       <div className="absolute inset-0  bg-black/20"></div>
       <div className="relative lg:flex  m-auto max-w-screen-2xl px-4 py-10 sm:px-6   lg:px-8 lg:mt-40 text-white">
         {/* info  */}
@@ -85,4 +85,4 @@ const Section3 = () => {
   );
 };
 
-export default Section3;
+export default AboutSection3;
