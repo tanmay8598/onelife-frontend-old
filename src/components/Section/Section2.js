@@ -3,7 +3,7 @@ import React from "react";
 
 const Section2 = () => {
   return (
-    <section className="bg-white lg:mt-[300px]">
+    <section className="bg-white lg:mt-28">
       <div className="relative flex flex-col  mx-auto max-w-screen-2xl px-4 py-10 sm:px-6 lg:flex lg:h-screen lg:px-8 lg:mt-20">
         <p className="text-orange font-pacifico lg:text-[36px]">Destinations</p>
         <p className="text-3xl mt-2 font-extrabold lg:text-[50px] lg:w-[70%] lg:mt-[30px] leading-none">
@@ -29,10 +29,10 @@ const Section2 = () => {
           <Image src="/section/section1-4.png" height={214} width={214} />
         </div>
         <div className="lg:hidden flex items-center justify-center lg:justify-start flex-wrap gap-5 lg:gap-10 mt-10">
-          <Image src="/section/section1-1.png" height={214} width={214} />
-          <Image src="/section/section1-2.png" height={214} width={214} />
-          <Image src="/section/section1-3.png" height={214} width={214} />
-          <Image src="/section/section1-4.png" height={214} width={214} />
+          <Image src="/section/section1-1.png" height={150} width={150} />
+          <Image src="/section/section1-2.png" height={150} width={150} />
+          <Image src="/section/section1-3.png" height={150} width={150} />
+          <Image src="/section/section1-4.png" height={150} width={150} />
         </div>
 
         <div className="hidden lg:block absolute right-0">

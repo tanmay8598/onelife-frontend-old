@@ -161,124 +161,85 @@ const page = () => {
         <ul className="ml-8">
           <li>By use of our corporate name; or</li>
           <li>By use of the uniform resource locator being linked to; or</li>
-          <li>associations or other groups representing charities;</li>
-          <li>online directory distributors;</li>
-          <li>internet portals;</li>
-          <li>accounting, law and consulting firms; and</li>
-          <li>educational institutions and trade associations.</li>
+          <li>
+            By use of any other description of our Website being linked to that
+            makes sense within the context and format of content on the linking
+            party’s site.
+          </li>
         </ul>
-        <p className="font-bold mt-8">Log Files</p>
-        <p className="mt-1">
-          <a href="www.onelifetourism.com">onelifetourism.com</a> follows a
-          standard procedure of using log files. These files log visitors when
-          they visit websites. All hosting companies do this and a part of
-          hosting services’ analytics. The information collected by log files
-          include internet protocol (IP) addresses, browser type, Internet
-          Service Provider (ISP), date and time stamp, referring/exit pages, and
-          possibly the number of clicks. These are not linked to any information
-          that is personally identifiable. The purpose of the information is for
-          analyzing trends, administering the site, tracking users’ movement on
-          the website, and gathering demographic information.
+        <p>
+          No use of One Life Tourism’s logo or other artwork will be allowed for
+          linking absent a trademark license agreement.
         </p>
-        <p className="font-bold mt-8">Cookies and Web Beacons</p>
+        <p className="font-bold mt-8">iFrames</p>
         <p className="mt-1">
-          Like any other website,{" "}
-          <a href="www.onelifetourism.com">onelifetourism.com</a> uses
-          “cookies”. These cookies are used to store information including
-          visitors’ preferences, and the pages on the website that the visitor
-          accessed or visited. The information is used to optimize the users’
-          experience by customizing our web page content based on visitors’
-          browser type and/or other information.
+          Without prior approval and written permission, you may not create
+          frames around our Webpages that alter in any way the visual
+          presentation or appearance of our Website.
         </p>
-        <p className="font-bold mt-8">Advertising Partners Privacy Policies</p>
+        <p className="font-bold mt-8">Content Liability</p>
         <p className="mt-1">
-          You may consult this list to find the Privacy Policy for each of the
-          advertising partners of onelifetourism.com. Third-party ad servers or
-          ad networks uses technologies like cookies, JavaScript, or Web Beacons
-          that are used in their respective advertisements and links that appear
-          on onelifetourism.com, which are sent directly to users’ browser. They
-          automatically receive your IP address when this occurs. These
-          technologies are used to measure the effectiveness of their
-          advertising campaigns and/or to personalize the advertising content
-          that you see on websites that you visit. Note that onelifetourism.com
-          has no access to or control over these cookies that are used by
-          third-party advertisers.
+          We shall not be hold responsible for any content that appears on your
+          Website. You agree to protect and defend us against all claims that is
+          rising on your Website. No link(s) should appear on any Website that
+          may be interpreted as libelous, obscene or criminal, or which
+          infringes, otherwise violates, or advocates the infringement or other
+          violation of, any third party rights.
         </p>
-        <p className="font-bold mt-8">Third Party Privacy Policies</p>
+        <p className="font-bold mt-8">Reservation of Rights</p>
         <p className="mt-1">
-          onelifetourism.com’s Privacy Policy does not apply to other
-          advertisers or websites. Thus, we are advising you to consult the
-          respective Privacy Policies of these third-party ad servers for more
-          detailed information. It may include their practices and instructions
-          about how to opt-out of certain options. You can choose to disable
-          cookies through your individual browser options. To know more detailed
-          information about cookie management with specific web browsers, it can
-          be found at the browsers’ respective websites.
+          We reserve the right to request that you remove all links or any
+          particular link to our Website. You approve to immediately remove all
+          links to our Website upon request. We also reserve the right to amen
+          these terms and conditions and it’s linking policy at any time. By
+          continuously linking to our Website, you agree to be bound to and
+          follow these linking terms and conditions.
         </p>
-        <p className="font-bold mt-8">
-          CCPA Privacy Rights (Do Not Sell My Personal Information)
-        </p>
+        <p className="font-bold mt-8">Removal of links from our website</p>
         <p className="mt-1">
-          Under the CCPA, among other rights, California consumers have the
-          right to: Request that a business that collects a consumer’s personal
-          data disclose the categories and specific pieces of personal data that
-          a business has collected about consumers. Request that a business
-          delete any personal data about the consumer that a business has
-          collected. Request that a business that sells a consumer’s personal
-          data, not sell the consumer’s personal data. If you make a request, we
-          have one month to respond to you. If you would like to exercise any of
-          these rights, please contact us.
+          If you find any link on our Website that is offensive for any reason,
+          you are free to contact and inform us any moment. We will consider
+          requests to remove links but we are not obligated to or so or to
+          respond to you directly. We do not ensure that the information on this
+          website is correct, we do not warrant its completeness or accuracy;
+          nor do we promise to ensure that the website remains available or that
+          the material on the website is kept up to date.
         </p>
-        <p className="font-bold mt-8">GDPR Data Protection Rights</p>
+        <p className="font-bold mt-8">Disclaimer</p>
         <p className="mt-1">
-          We would like to make sure you are fully aware of all of your data
-          protection rights. Every user is entitled to the following: The right
-          to access – You have the right to request copies of your personal
-          data. We may charge you a small fee for this service. The right to
-          rectification – You have the right to request that we correct any
-          information you believe is inaccurate. You also have the right to
-          request that we complete the information you believe is incomplete.
-          The right to erasure – You have the right to request that we erase
-          your personal data, under certain conditions. The right to restrict
-          processing – You have the right to request that we restrict the
-          processing of your personal data, under certain conditions. The right
-          to object to processing – You have the right to object to our
-          processing of your personal data, under certain conditions. The right
-          to data portability – You have the right to request that we transfer
-          the data that we have collected to another organization, or directly
-          to you, under certain conditions. If you make a request, we have one
-          month to respond to you. If you would like to exercise any of these
-          rights, please contact us.
+          To the maximum extent permitted by applicable law, we exclude all
+          representations, warranties and conditions relating to our website and
+          the use of this website. Nothing in this disclaimer will:
         </p>
-        <p className="font-bold mt-8">Children’s Information</p>
-        <p className="mt-1">
-          Another part of our priority is adding protection for children while
-          using the internet. We encourage parents and guardians to observe,
-          participate in, and/or monitor and guide their online activity.
-          onelifetourism.com does not knowingly collect any Personal
-          Identifiable Information from children under the age of 13. If you
-          think that your child provided this kind of information on our
-          website, we strongly encourage you to contact us immediately and we
-          will do our best efforts to promptly remove such information from our
-          records.
+        <ul className="ml-8">
+          <li>
+            limit or exclude our or your liability for death or personal injury;
+          </li>
+          <li>dot.com community sites;</li>
+          <li>
+            limit or exclude our or your liability for fraud or fraudulent
+            misrepresentation;
+          </li>
+          <li>
+            limit any of our or your liabilities in any way that is not
+            permitted under applicable law; or
+          </li>
+          <li>
+            exclude any of our or your liabilities that may not be excluded
+            under applicable law.
+          </li>
+        </ul>
+        <p>
+          The limitations and prohibitions of liability set in this Section and
+          elsewhere in this disclaimer: (a) are subject to the preceding
+          paragraph; and (b) govern all liabilities arising under the
+          disclaimer, including liabilities arising in contract, in tort and for
+          breach of statutory duty.
         </p>
-        <p className="font-bold mt-8">Changes to This Privacy Policy</p>
-        <p className="mt-1">
-          We may update our Privacy Policy from time to time. Thus, we advise
-          you to review this page periodically for any changes. We will notify
-          you of any changes by posting the new Privacy Policy on this page.
-          These changes are effective immediately, after they are posted on this
-          page.
-        </p>
-        <p className="font-bold mt-8">Contact Us</p>
-        <p className="mt-1">
-          If you have any questions or suggestions about our Privacy Policy, do
-          not hesitate to contact us.
-        </p>
-        <p className="font-bold mt-8">Data Deletion Request</p>
-        <p className="mt-1">
-          Your data can be deleted by raising a request to –
-          onelifetourismllc@gmail.com
+        <p>
+          As long as the website and the information and services on the website
+          are provided free of charge, we will not be liable for any loss or
+          damage of any nature.
         </p>
       </div>
     </div>

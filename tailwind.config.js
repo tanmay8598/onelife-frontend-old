@@ -47,9 +47,15 @@ module.exports = withMT({
         "bg-img-2": "url('/travel-slide-02.jpg')",
         "bg-img-3": "url('/travel-slide-03.jpg')",
         "bg-img-4": "url('/travel-slide-04.jpg')",
-        "uae-visa": "url('/uae-passport.png')",
-        "uae-activities": "url('/activities.png')",
-        "uae-holidays": "url('/holidays.png')",
+        "uae-visa":
+          "linear-gradient(to right, rgba(1,1,1,1) ,20%, rgba(0, 0, 0, 0) 50%), url('/uae-passport.png')",
+        // "uae-visa": "url('/uae-passport.png')",
+        "uae-activities":
+          "linear-gradient(to right, rgba(1,1,1,1) ,20%, rgba(0, 0, 0, 0) 50%), url('/activities.png')",
+        // "uae-activities": "url('/activities.png')",
+        "uae-holidays":
+          "linear-gradient(to right, rgba(1,1,1,1) ,20%, rgba(0, 0, 0, 0) 50%), url('/holidays.png')",
+        // "uae-holidays": "url('/holidays.png')",
         "section1-video": "url('/section/section1-video.png')",
         "section2-bg": "url('/section/bg-img-11.jpg')",
         "landing-bg": "url('/section/landing-bg.png')",
@@ -71,6 +77,9 @@ module.exports = withMT({
         "holiday-switzerland": "url('/holiday/switzerland.png')",
         "holiday-bg": "url('/holiday/holiday-bg.png')",
         "b2b-bg": "url('/b2b/bg.png')",
+        "home-bg1-mobile": "url('/home/bg1.png')",
+        "home-bg1":
+          "linear-gradient(to right, rgba(1,1,1,1) ,30%, rgba(0, 0, 0, 0) 50%), url('/home/bg1.png')",
       },
       textShadow: {
         sm: "0 1px 2px var(--tw-shadow-color)",

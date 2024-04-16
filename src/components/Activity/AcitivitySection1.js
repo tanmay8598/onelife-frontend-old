@@ -110,9 +110,9 @@ const AcitivitySection1 = () => {
 
       {/* bottom  */}
       <div className="mx-auto max-w-screen-2xl lg:mt-[300px] pb-20 lg:pb-56">
-        <div className="mt-20 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-20 w-full place-items-center text-center lg:text-start">
+        <div className="mt-20 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-20 w-full place-items-start text-center lg:text-start">
           <div className="w-full">
-            <div className="lg:ml-10">
+            <div>
               <p className="font-medium text-2xl lg:text-4xl ">Clients</p>
               <div className="h-[1px]  bg-black mt-5 w-[80%]  mx-auto lg:mx-0 " />
               <p className="font-medium text-4xl lg:text-[70px] mt-2 lg:mt-28">
@@ -125,7 +125,7 @@ const AcitivitySection1 = () => {
             </div>
           </div>
           <div className="w-full">
-            <div className="lg:ml-10">
+            <div>
               <p className="font-medium text-2xl lg:text-4xl ">Destinations</p>
               <div className="h-[1px]  bg-black mt-5 w-[80%] mx-auto lg:mx-0" />
               <p className="font-medium text-4xl lg:text-[70px] mt-2 lg:mt-28">
@@ -138,7 +138,7 @@ const AcitivitySection1 = () => {
             </div>
           </div>
           <div className="w-full">
-            <div className="lg:ml-10">
+            <div>
               <p className="font-medium text-2xl lg:text-4xl ">Happiness</p>
               <div className="h-[1px]  bg-black mt-5 w-[80%]  mx-auto lg:mx-0" />
 

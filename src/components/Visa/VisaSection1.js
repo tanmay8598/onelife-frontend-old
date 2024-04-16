@@ -10,7 +10,7 @@ const VisaSection1 = () => {
         </p>
         <div className="grid grid-cols-1 px-10 lg:px-0  lg:grid-cols-3 gap-8 lg:gap-20 w-full place-items-center mt-14 lg:mt-28">
           <div className="w-full">
-            <div className="lg:ml-10 flex flex-col items-center">
+            <div className=" flex flex-col items-center">
               <Image src="/visa/section1-1.png" height={100} width={100} />
 
               <p className="font-semibold text-lg lg:text-2xl lg:mt-5">
@@ -25,7 +25,7 @@ const VisaSection1 = () => {
             </div>
           </div>
           <div className="w-full">
-            <div className="lg:ml-10 flex flex-col items-center">
+            <div className=" flex flex-col items-center">
               <Image src="/visa/section1-2.png" height={100} width={100} />
 
               <p className="font-semibold text-lg lg:text-2xl lg:mt-5">
@@ -40,7 +40,7 @@ const VisaSection1 = () => {
             </div>
           </div>
           <div className="w-full">
-            <div className="lg:ml-10 flex flex-col items-center">
+            <div className=" flex flex-col items-center">
               <Image src="/visa/section1-3.png" height={100} width={100} />
 
               <p className="font-semibold text-lg lg:text-2xl lg:mt-5">
@@ -67,9 +67,9 @@ const VisaSection1 = () => {
           </a>
         </div>
         {/* bottom  */}
-        <div className="mt-20 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-20 w-full place-items-center text-center lg:text-start">
+        <div className="mt-20 lg:mt-[200px] grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-20 w-full place-items-start text-center lg:text-start">
           <div className="w-full">
-            <div className="lg:ml-10">
+            <div>
               <p className="font-medium text-2xl lg:text-4xl ">Clients</p>
               <div className="h-[1px]  bg-black mt-5 w-[80%]  mx-auto lg:mx-0 " />
               <p className="font-medium text-4xl lg:text-[70px] mt-2 lg:mt-28">
@@ -82,7 +82,7 @@ const VisaSection1 = () => {
             </div>
           </div>
           <div className="w-full">
-            <div className="lg:ml-10">
+            <div>
               <p className="font-medium text-2xl lg:text-4xl ">Destinations</p>
               <div className="h-[1px]  bg-black mt-5 w-[80%] mx-auto lg:mx-0" />
               <p className="font-medium text-4xl lg:text-[70px] mt-2 lg:mt-28">
@@ -95,7 +95,7 @@ const VisaSection1 = () => {
             </div>
           </div>
           <div className="w-full">
-            <div className="lg:ml-10">
+            <div>
               <p className="font-medium text-2xl lg:text-4xl ">Success</p>
               <div className="h-[1px]  bg-black mt-5 w-[80%]  mx-auto lg:mx-0" />
               <p className="font-medium text-4xl lg:text-[70px] mt-2 lg:mt-28">
