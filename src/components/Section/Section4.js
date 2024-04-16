@@ -3,8 +3,8 @@ import React from "react";
 
 const Section4 = () => {
   return (
-    <section className="relative flex lg:h-[610px] bg-landing-bg bg-cover bg-center bg-no-repeat">
-      <div className="flex flex-col relative mx-auto max-w-screen-2xl px-4 py-32 sm:px-6 lg:flex lg:h-screen/2 lg:items-center lg:px-8">
+    <section className="relative flex lg:h-screen bg-landing-bg bg-cover bg-center bg-no-repeat lg:mb-[200px]">
+      <div className="flex flex-col relative mx-auto max-w-screen-2xl px-4 py-32 sm:px-6 lg:flex  lg:items-center lg:px-8">
         <div className="w-full text-center">
           <p className="text-orange text-xl lg:text-[30px] font-pacifico">
             Traveler’s

@@ -34,31 +34,45 @@ const AboutSection1 = () => {
           </p>
         </div>
 
-        <div className="mt-5 lg:mt-20 grid grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-20 w-full place-items-center">
+        {/* bottom  */}
+        <div className="mt-20 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-20 w-full place-items-center text-center lg:text-start">
           <div className="w-full">
             <div className="lg:ml-10">
               <p className="font-medium text-2xl lg:text-4xl ">Clients</p>
-              <div className="h-[1px]  bg-black mt-5 w-[80%]" />
-              <p className="font-medium text-3xl lg:text-[70px] mt-2 lg:mt-10">
+              <div className="h-[1px]  bg-black mt-5 w-[80%]  mx-auto lg:mx-0 " />
+              <p className="font-medium text-4xl lg:text-[70px] mt-2 lg:mt-28">
                 7500+
+              </p>
+              <p className="mt-10">
+                Our track record speaks for itself - a vast clientele places
+                their trust in us for their application processing needs.
               </p>
             </div>
           </div>
           <div className="w-full">
             <div className="lg:ml-10">
               <p className="font-medium text-2xl lg:text-4xl ">Destinations</p>
-              <div className="h-[1px]  bg-black mt-5 w-[80%]" />
-              <p className="font-medium text-3xl lg:text-[70px] mt-2 lg:mt-10">
+              <div className="h-[1px]  bg-black mt-5 w-[80%] mx-auto lg:mx-0" />
+              <p className="font-medium text-4xl lg:text-[70px] mt-2 lg:mt-28">
                 40+
+              </p>
+              <p className="mt-10 ">
+                Our comprehensive visa consultancy services extend to over 40
+                countries worldwide.
               </p>
             </div>
           </div>
           <div className="w-full">
             <div className="lg:ml-10">
-              <p className="font-medium text-2xl lg:text-4xl ">Clients</p>
-              <div className="h-[1px]  bg-black mt-5 w-[80%]" />
-              <p className="font-medium text-3xl lg:text-[70px] mt-2 lg:mt-10">
-                7500+
+              <p className="font-medium text-2xl lg:text-4xl ">Success</p>
+              <div className="h-[1px]  bg-black mt-5 w-[80%]  mx-auto lg:mx-0" />
+              <p className="font-medium text-4xl lg:text-[70px] mt-2 lg:mt-28">
+                95%
+              </p>
+              <p className="mt-10 ">
+                With a remarkable 95% success rate in application processing, we
+                stand as a testament to our dedication and expertise in the
+                field.
               </p>
             </div>
           </div>

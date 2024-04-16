@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
-
+const link =
+  "https://www.google.com/maps/place/Al+Khaleej+Center/@25.2578173,55.294199,17.47z/data=!4m6!3m5!1s0x3e5f433c5aa7287d:0x460b315b0d606c13!8m2!3d25.257195!4d55.2957318!16s%2Fg%2F11b7hd_871?entry=tts";
 const Footer = () => {
   return (
     <footer className="relative mt-10  lg:mt-[120px]">
       {/* blogs  */}
-      <div className=" max-w-screen-xl px-4 mx-auto mt-5 lg:mt-0">
+      <div className=" max-w-screen-2xl px-4 mx-auto mt-5 lg:mt-0">
         {/* desktop  */}
         <div className="hidden  lg:grid grid-cols-2 gap-10 lg:grid-cols-3 lg:gap-20  place-items-center">
           <div className="w-full">
@@ -146,7 +147,7 @@ const Footer = () => {
       </div>
 
       {/* top */}
-      <div className="flex flex-col w-full relative mx-auto  max-w-screen-xl px-4 mt-10 lg:mt-20">
+      <div className="flex flex-col w-full relative mx-auto   max-w-screen-2xl px-4 mt-10 lg:mt-20">
         <p className="font-semibold text-2xl lg:text-6xl">
           Best travel agency,
         </p>
@@ -160,7 +161,16 @@ const Footer = () => {
             Locate US On Map
           </a>
         </p>
-        <a
+        <a href={link}>
+          <Image
+            src="/section/footer-map.png"
+            alt="map"
+            height={2000}
+            width={2000}
+            className="h-[200px] w-full lg:h-[265px]    lg:mt-20 object-cover"
+          />
+        </a>
+        {/* <a
           href="#"
           className="relative h-[200px] w-full lg:h-[265px]  lg:w-[1171px]  cursor-pointer mt-2 lg:mt-10"
         >
@@ -171,7 +181,7 @@ const Footer = () => {
             fill={true}
             objectFit="contain"
           />
-        </a>
+        </a> */}
       </div>
 
       <div className="flex flex-col w-full mt-10 relative mx-auto  max-w-screen-lg px-4  lg:py-32 sm:px-6 lg:flex lg:h-screen/2 lg:items-center lg:px-8">
@@ -220,13 +230,39 @@ const Footer = () => {
         <div className="flex flex-col items-center mt-10">
           <Image src="/logo.png" alt="logo" width={274} height={121} />
 
-          <div className="flex gap-4 mt-10">
-            <p className="font-darkBlue font-medium">About</p>
-            <p className="font-darkBlue font-medium">Contact Us</p>
-            <p className="font-darkBlue font-medium">Privacy Policy</p>
-            <p className="font-darkBlue font-medium">Terms</p>
+          <div className="flex gap-4 mt-10 ">
+            <a
+              className="font-darkBlue font-medium no-underline "
+              href="/about"
+            >
+              About
+            </a>
+            <a
+              className="font-darkBlue font-medium no-underline"
+              href="/contact-us"
+            >
+              Contact Us
+            </a>
+            <a
+              className="font-darkBlue font-medium no-underline"
+              href="/privacy-policy"
+            >
+              Privacy Policy
+            </a>
+            <a
+              className="font-darkBlue font-medium no-underline"
+              href="/terms-conditions"
+            >
+              Terms
+            </a>
           </div>
         </div>
+
+        <p className="font-semibold text-sm mt-7">
+          Copyright © 2024 
+          <strong className="text-red">onelifetourism.com.</strong> All Rights
+          Reserved.
+        </p>
       </div>
     </footer>
   );
